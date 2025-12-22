@@ -17,7 +17,7 @@ window#waybar {
 }
 
 #workspaces button {
-  padding: 0.3rem 2rem;
+  padding: 0.3rem 0.8rem; /* left right -> top bottom */
   margin: 0.4rem 0.25rem; /* 0.8rem is dist from inner border to outer border */
   border-radius: 5px;
   background-color: #383838;

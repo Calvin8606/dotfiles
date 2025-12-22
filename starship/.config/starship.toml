@@ -78,6 +78,16 @@ format = '[\[$symbol$status_common_meaning$status_signal_name$status_maybe_int\]
 map_symbol = true
 disabled = false
 
+[c]
+symbol = " "
+
+[cpp]
+symbol = " "
+
+[lua]
+symbol = "󰢱 "
+style = "blue"
+
 [aws]
 symbol = " "
 
@@ -87,8 +97,8 @@ symbol = " "
 [dart]
 symbol = " "
 
-# [docker]
-# symbol = " "
+[docker_context]
+symbol = " "
 
 [elixir]
 symbol = " "
@@ -109,13 +119,13 @@ symbol = " "
 symbol = " "
 
 [java]
-symbol = " "
+symbol = " "
 
 [julia]
 symbol = " "
 
 [nim]
-symbol = " "
+symbol = " "
 
 [nix_shell]
 symbol = " "
@@ -124,7 +134,7 @@ symbol = " "
 symbol = " "
 
 [package]
-symbol = " "
+symbol = " "
 
 [perl]
 symbol = " "
@@ -142,4 +152,32 @@ symbol = " "
 symbol = " "
 
 [swift]
-symbol = "ﯣ "
+symbol = " "
+
+[zig]
+symbol = " "
+
+[custom.toml]
+symbol = " "
+detect_extensions = ['toml']
+
+[custom.yaml]
+symbol = " "
+detect_extensions = ['yaml']
+
+[custom.conf]
+symbol = " "
+detect_extensions = ['conf']
+
+[custom.config]
+symbol = " "
+detect_extensions = ['config']
+
+[custom.json]
+symbol = "󰘦 "
+detect_extensions = ['json']
+
+[custom.jsonc]
+symbol = "󰘦 "
+detect_extensions = ['jsonc']
+

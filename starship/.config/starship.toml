@@ -9,6 +9,7 @@ show_always = true
 # Second param
 [hostname]
 format = "[$hostname]($style) in "
+ssh_symbol = " "
 style = "bold dimmed red"
 trim_at = "-"
 ssh_only = false
@@ -20,6 +21,8 @@ style = "purple"
 truncation_length = 0
 truncate_to_repo = true
 truncation_symbol = "repo: "
+read_only = " 󰌾"
+
 
 # Before all the version info (python, nodejs, php, etc.)
 [git_status]
@@ -73,7 +76,7 @@ error_symbol = " [×](bold red)"
 
 # SYMBOLS
 [status]
-symbol = "🔴"
+symbol = "✘ "
 format = '[\[$symbol$status_common_meaning$status_signal_name$status_maybe_int\]]($style)'
 map_symbol = true
 disabled = false
@@ -83,6 +86,15 @@ symbol = " "
 
 [cpp]
 symbol = " "
+
+[memory_usage]
+symbol = "󰍛 "
+
+[meson]
+symbol = "󰔷 "
+
+[cmake]
+symbol = " "
 
 [lua]
 symbol = "󰢱 "
@@ -131,10 +143,10 @@ symbol = " "
 symbol = " "
 
 [nodejs]
-symbol = " "
+symbol = " "
 
 [package]
-symbol = " "
+symbol = "󰏗 "
 
 [perl]
 symbol = " "
@@ -174,10 +186,57 @@ symbol = " "
 detect_extensions = ['config']
 
 [custom.json]
-symbol = "󰘦 "
+symbol = " "
 detect_extensions = ['json']
 
 [custom.jsonc]
-symbol = "󰘦 "
+symbol = " "
 detect_extensions = ['jsonc']
 
+[os.symbols]
+Alpaquita = " "
+Alpine = " "
+AlmaLinux = " "
+Amazon = " "
+Android = " "
+AOSC = " "
+Arch = " "
+Artix = " "
+CachyOS = " "
+CentOS = " "
+Debian = " "
+DragonFly = " "
+Emscripten = " "
+EndeavourOS = " "
+Fedora = " "
+FreeBSD = " "
+Garuda = "󰛓 "
+Gentoo = " "
+HardenedBSD = "󰞌 "
+Illumos = "󰈸 "
+Kali = " "
+Linux = " "
+Mabox = " "
+Macos = " "
+Manjaro = " "
+Mariner = " "
+MidnightBSD = " "
+Mint = " "
+NetBSD = " "
+NixOS = " "
+Nobara = " "
+OpenBSD = "󰈺 "
+openSUSE = " "
+OracleLinux = "󰌷 "
+Pop = " "
+Raspbian = " "
+Redhat = " "
+RedHatEnterprise = " "
+RockyLinux = " "
+Redox = "󰀘 "
+Solus = "󰠳 "
+SUSE = " "
+Ubuntu = " "
+Unknown = " "
+Void = " "
+Windows = "󰍲 "

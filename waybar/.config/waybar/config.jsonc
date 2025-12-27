@@ -145,7 +145,7 @@
     "gtk-layer-shell": true,
     "passthrough": false,
     "fixed-center": true,
-    "output": ["DP-1", "HDMI-A-1"],
+    "output": ["DP-1", "DP-2"],
     "modules-left": ["niri/workspaces", "niri/window"],
     "modules-center": ["mpris"],
     "modules-right": [
